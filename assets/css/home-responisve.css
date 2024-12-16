@@ -485,6 +485,17 @@
         font-size: 22px;
     }
 
+    .breadcrumb_area .shape_img .one {
+        left: 0;
+        bottom: 0;
+    }
+
+    .breadcrumb_area {
+        padding-top: 250px;
+        padding-bottom: 15px !important;
+        position: relative;
+    }
+
     .paragraph {
         font-size: 18px;
     }
@@ -731,6 +742,7 @@
 
     .our-team-heading {
         font-size: 60px !important;
+        margin-top: -57px !important;
     }
 
     .digital_agency .content .agency_list li {
