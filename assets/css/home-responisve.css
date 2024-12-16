@@ -286,6 +286,14 @@
     .lemon-img-1 {
         width: 100% !important;
     }
+
+    .case-study h2 {
+        padding-left: 0px !important;
+    }
+
+    .case-study p {
+        padding-left: 0px !important;
+    }
 }
 
 
@@ -475,6 +483,28 @@
 
     .our-team-heading {
         font-size: 85px !important;
+    }
+
+    .team {
+        padding-top: 50px !important;
+    }
+
+    .team.innar {
+        padding-bottom: 34px !important;
+    }
+    .aword {
+        padding-bottom: 65px !important;
+    }
+    .digital_agency {
+        padding-bottom: 50px !important;
+    }
+    .faq {
+        padding-bottom: 60px !important;
+    }
+
+    .case-studies-heading {
+        margin-bottom: 15px !important;
+        margin-top: 140px !important;
     }
 }
 
