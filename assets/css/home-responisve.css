@@ -138,6 +138,20 @@
 
 
 @media only screen and (max-width : 990px) {
+    .header_aria .navbar .container {
+        background: white !important;
+        border: none !important;
+    }
+
+    .header_aria .navbar .navbar-collapse .nav_buttons {
+        border: none !important;
+    }
+
+    .header_aria.navbar_fixed .navbar {
+        background: #fff !important;
+        box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.1) !important;
+    }
+
     .hero_marketing_agency .shape_img .one {
         display: none;
     }
@@ -264,9 +278,11 @@
     .donna-bell-first-img {
         width: 100% !important;
     }
+
     .sleepy-sloth-img-1 {
         width: 100% !important;
     }
+
     .lemon-img-1 {
         width: 100% !important;
     }
@@ -465,6 +481,14 @@
 
 
 @media only screen and (max-width : 500px) {
+    .heading {
+        font-size: 22px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+    }
+
     .hero_marketing_agency .shape_img .one {
         display: none;
     }
@@ -483,8 +507,8 @@
     }
 
     .section_title h2 {
-        font-size: 31px;
-        line-height: 48px;
+        font-size: 30px;
+        line-height: 34px;
     }
 
     .mobilepc-heading {
@@ -631,11 +655,12 @@
     .min_faq_area .accordion .accordion-item .accordion-body {
         font-size: 16px;
         text-align: start;
+        line-height: 24px !important;
     }
 
     .digital_agency .content p {
         font-size: 16px;
-        line-height: 27px;
+        line-height: 24px;
     }
 
     .footer_bottom .footer_copyright p {
@@ -657,11 +682,11 @@
     }
 
     .cta-heading {
-        font-size: 1.5rem;
+        font-size: 30px;
     }
 
     .cta-para {
-        font-size: 1rem;
+        font-size: 16px;
         margin: 20px 0;
     }
 
@@ -713,11 +738,21 @@
         line-height: 20px !important;
     }
 
-    .dona-bella-laser-heading {
-        font-size: 1.5rem !important;
+    .case-studies-inner-content-heading-h1 {
+        font-size: 30px !important;
+        margin-top: 150px !important;
     }
 
     .content-box {
-        padding: 10px !important; 
+        padding: 10px !important;
+    }
+
+    .case-studies-inner-content-heading-h2 {
+        font-size: 24px !important;
+    }
+
+    .case-studies-inner-content-para {
+        font-size: 16px !important;
+        line-height: 24px !important;
     }
 }

@@ -1808,6 +1808,7 @@ a {
 
 .digital_agency .content .agency_list {
   margin-top: 30px;
+  text-align: center;
 }
 
 .digital_agency .content .agency_list li {
@@ -5142,6 +5143,11 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
+  text-align: center;
+}
+
+.contact_list {
+  text-align: center;
 }
 
 .main_footer .site_info .contact_list li a {
@@ -5454,6 +5460,19 @@ hr {
   line-height: 50px;
   text-align: left;
 }
+.navbar-toggler-icon {
+  display: flex !important;
+  align-items: center !important;
+}
 
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+ul {
+  text-align: start;
+}
 
 /*# sourceMappingURL=style.css.map */
