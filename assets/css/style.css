@@ -1793,9 +1793,9 @@ a {
   padding-bottom: 150px;
 }
 
-.digital-agency-img {
+/* .digital-agency-img {
   width: 100%;
-}
+} */
 
 .digital_agency .content p {
   color: #131313;
@@ -2118,7 +2118,7 @@ a {
   display: flex;
   width: 90%;
   max-width: 1200px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .counter-container {

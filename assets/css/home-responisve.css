@@ -14,14 +14,14 @@
     }
 
     .hero_marketing_agency .content .section_title h1 {
-        font-size: 70px !important;
+        font-size: 91px !important;
         line-height: 104px;
         margin-top: 0px;
     }
 
     .section_title h2 {
-        font-size: 53px;
-        line-height: 64px;
+        font-size: 66px;
+        line-height: 76px;
     }
 
     .mobilepc-heading {
@@ -40,33 +40,19 @@
 }
 
 
-@media only screen and (max-width : 1200px) {
-    .faq .content {
-        position: relative;
-    }
-
-    .faq-content-col {
-        position: relative;
-        top: 0;
-        align-self: flex-start;
-        margin-bottom: 50px;
-    }
-}
-
-
 @media only screen and (max-width : 1300px) {
     .hero_marketing_agency .shape_img .one {
         display: none;
     }
 
     .hero_marketing_agency .content .section_title h1 {
-        font-size: 57px !important;
+        font-size: 91px !important;
         line-height: 104px;
         margin-top: 0px;
     }
 
     .section_title h2 {
-        font-size: 50px;
+        font-size: 66px;
         line-height: 64px;
     }
 
@@ -135,6 +121,22 @@
 }
 
 
+@media only screen and (max-width : 1200px) {
+    .faq .content {
+        position: relative;
+    }
+
+    .faq-content-col {
+        position: relative;
+        top: 0;
+        align-self: flex-start;
+        margin-bottom: 50px;
+    }
+    
+    .digital-agency-img {
+        width: 100%;
+    }
+}
 
 
 @media only screen and (max-width : 990px) {
@@ -298,6 +300,8 @@
 
 
 @media only screen and (max-width : 768px) {
+    
+
     .hero_marketing_agency .shape_img .one {
         display: none;
     }
@@ -309,7 +313,7 @@
     }
 
     .section_title h2 {
-        font-size: 31px;
+        font-size: 38px;
         line-height: 48px;
     }
 
