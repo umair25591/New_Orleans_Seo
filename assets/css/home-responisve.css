@@ -513,8 +513,23 @@
 }
 
 
+@media only screen and (max-width : 600px) {
+    .info-card {
+        padding: 20px 10px !important;
+    }
+    .info-card h3 {
+        font-size: 1.1rem !important;
+    }
+    .info-card p {
+        font-size: 1rem !important;
+    }
+}
+
 
 @media only screen and (max-width : 500px) {
+    .info-card p {
+        font-size: 14px !important;
+    }
     .heading {
         font-size: 22px;
     }
