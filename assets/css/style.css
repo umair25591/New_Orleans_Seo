@@ -5543,13 +5543,13 @@ ul {
   padding: 20px;
   display: flex;
   gap: 20px;
-  justify-content: center;
   align-items: center;
   background: linear-gradient(180deg, rgba(215, 240, 163, 0.21) 0%, rgba(213, 220, 201, 0.38) 100%);
   padding: 20px;
   border-radius: 8px;
   border: none;
   margin: 35px auto 0;
+  width: 60%;
 }
 
 .search-main-box {
@@ -5575,7 +5575,15 @@ ul {
 
 .input-box {
   position: relative;
-  z-index: 999;
+  flex-grow: 1;
+  /* Allows the input box to take up the remaining space */
+}
+
+.input-box img {
+  position: absolute;
+  top: 11px;
+  left: 8px;
+  z-index: 9;
 }
 
 .input-box input {
@@ -5587,7 +5595,7 @@ ul {
   position: relative;
   padding: 16px 16px 16px 36px;
   box-shadow: none;
-  max-width: 400px;
+  width: 100%;
 }
 
 .second-section {
@@ -5694,6 +5702,8 @@ ul {
 }
 
 .list-box ul li {
+  display: flex; /* Ensure icon and text are in a row */
+  align-items: flex-start; /* Align icon and text at the top */
   padding: 7px 0px;
 }
 
@@ -5701,6 +5711,7 @@ ul {
   margin-right: 10px;
   font-size: 18px;
   color: #738942;
+  flex-shrink: 0; /* Prevent icon from shrinking */
 }
 
 
@@ -5823,7 +5834,7 @@ ul {
 
 .my-card-content {
   padding: 15px;
-  
+
 }
 
 .my-card-content-right h1 {
@@ -5863,6 +5874,24 @@ strong {
   color: #738942;
   text-decoration: underline;
   font-weight: 600;
+}
+
+.fourth-section-row-box {
+  margin: 10px 0px;
+}
+
+.fourth-section-right h1 {
+  color: #433f34;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+
+.fourth-section-right p {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
