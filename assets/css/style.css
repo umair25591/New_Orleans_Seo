@@ -5483,15 +5483,20 @@ ul {
   z-index: 999;
 }
 
+.local-seo-top-padding {
+  background-color: #FC7942;
+  padding-top: 103px;
+}
+
 .first-section {
   min-height: auto;
-  background-color: #fff;
+  background-color: #FC7942;
   color: #000000;
   display: block;
   padding: 50px 0px;
   text-align: center;
   position: relative;
-  top: 103px;
+  /* top: 103px; */
   overflow: hidden;
 }
 
@@ -5522,7 +5527,7 @@ ul {
 .local-seo-heading {
   font-size: 44px;
   text-shadow: none;
-  color: #443f35;
+  color: #000000;
   letter-spacing: 0px;
   margin-bottom: 0px;
   /* padding-top: 140px; */
@@ -5531,7 +5536,7 @@ ul {
 }
 
 .local-seo-para {
-  color: #738942 !important;
+  color: #000000 !important;
   font-size: 20px !important;
   text-shadow: none;
   font-weight: 400;
@@ -5559,7 +5564,7 @@ ul {
 }
 
 .input-button button {
-  background-color: #D87928;
+  background-color: #FC7942;
   border-radius: 9px;
   color: #fff;
   font-size: 18px;
@@ -5633,7 +5638,7 @@ ul {
 }
 
 .second-section-para {
-  color: #738942;
+  color: #FC7942;
   text-align: center;
   font-size: 22px;
   margin-top: 9px;
@@ -5711,7 +5716,7 @@ ul {
 .list-tick {
   margin-right: 10px;
   font-size: 18px;
-  color: #738942;
+  color: #FC7942;
   flex-shrink: 0; /* Prevent icon from shrinking */
 }
 
@@ -5749,7 +5754,7 @@ ul {
 }
 
 .third-section-para {
-  color: #738942;
+  color: #FC7942;
   text-align: center;
   font-size: 22px;
   margin-top: 9px;
@@ -5788,7 +5793,7 @@ ul {
 }
 
 .my-card-heading a {
-  color: #738942;
+  color: #FC7942;
   text-decoration: underline;
   font-weight: 900;
   font-size: 24px;
@@ -5801,7 +5806,7 @@ ul {
 
 .my-card-number {
   font-size: 22px;
-  color: #6a8338;
+  color: #FC7942;
   font-weight: 900;
   margin: 0;
 }
@@ -5872,7 +5877,7 @@ strong {
 }
 
 .local-seo-anker {
-  color: #738942;
+  color: #FC7942;
   text-decoration: underline;
   font-weight: 600;
 }
